@@ -1,0 +1,32 @@
+{
+  "name": "moneycontrol_cypess",
+  "version": "1.0.0",
+  "description": "Cypress Practice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudounkwn/MoneyControl_cypess.git"
+  },
+  "author": "Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudounkwn/MoneyControl_cypess/issues"
+  },
+  "homepage": "https://github.com/sudounkwn/MoneyControl_cypess#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.2.0",
+    "chai-json-schema": "^1.5.0",
+    "cypress": "^9.6.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^1.6.2",
+    "node-xlsx": "^0.21.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
